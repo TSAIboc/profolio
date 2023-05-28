@@ -1,0 +1,47 @@
+:root {
+    --panel-width: 360px;
+    --border-style: 1px solid #E8E8E8;
+    --header-height: 60px;
+    --panel-padding: 16px;
+    --background-color: #fff;
+    --secondary-background-color: #f7f7f7;
+    --font-size: 18px;
+    --line-height: 28px;
+    --color-blue: #049EF4;
+}
+
+main {
+    height: 100vh;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.panel {
+    position: fixed;
+    z-index: 100;
+    left: 0px;
+    width: var(--panel-width);
+    height: 100%;
+    overflow: auto;
+    border-right: var(--border-style);
+    display: flex;
+    flex-direction: column;
+    transition: 0s 0s height;
+}
+
+.viewer,
+iframe {
+    padding-left: var(--panel-width);
+    position: absolute;
+    border: 0px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.git {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}

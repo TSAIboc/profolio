@@ -1,8 +1,13 @@
 export const projects = [
     {
-        key: 'Morph_',
+        key: 'Morph.',
         iframe: 'https://morph-jade.vercel.app/',
         source: 'https://github.com/TSAIboc/morph',
+    },
+    {
+        key: 'Tooth Align',
+        iframe: 'https://vite-tooth-align.vercel.app/viewer',
+        source: ''
     },
     {
         key: 'Margin Edit',
@@ -20,12 +25,12 @@ export const projects = [
         source: ''
     },
     {
-        key: 'Aligner Material Shader Test',
+        key: 'Aligner Material',
         iframe: 'https://vite-oypk9c8pa-tsaiboc.vercel.app/',
         source:''
     },
     {
-        key: 'Animation_',
+        key: 'Animation.',
         iframe: 'https://animation-bcpa.vercel.app/',
         source: 'https://github.com/TSAIboc/animation'
     },

@@ -13,6 +13,8 @@ const Content = (props: { projects: Array<{ key: string; iframe: string; source:
   };
   return (
     <>
+      <div>TSAI</div> 
+      <div>becauseu8s@gmail.com</div>
       <h2>LIST</h2>
       {projects.map((el) => {
         return <div key={el.key}>{el.key}</div>;

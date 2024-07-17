@@ -1,11 +1,16 @@
 export const projects = [
     {
-        key: 'Gingiva Created',
+        key: 'Align',
+        iframe: 'https://tooth-align.vercel.app/viewer',
+        source: ''
+    },
+    {
+        key: 'Gingiva',
         iframe: 'https://c-gingiva.vercel.app/viewer',
         source: ''
     },
     {
-        key: 'Morph.',
+        key: 'Morph',
         iframe: 'https://morph-jade.vercel.app/',
         source: 'https://github.com/TSAIboc/morph',
     },
@@ -35,7 +40,7 @@ export const projects = [
         source:''
     },
     {
-        key: 'Animation.',
+        key: 'Animation',
         iframe: 'https://animation-bcpa.vercel.app/',
         source: 'https://github.com/TSAIboc/animation'
     },

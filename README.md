@@ -1,6 +1,11 @@
 
 ![screenshot](./docs/profolio.png)
 
+### Update 2024/07/17
+* Align
+    * Align tooth with gingiva created
+    * Show Collision and Occlusion 
+    * Generate substeps
 ### Update 2024/06/04
 * Gingiva Created
 ### Update 2024/04/02

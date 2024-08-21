@@ -20,6 +20,8 @@ const Content = (props: { projects: Array<{ key: string; iframe: string; source:
         return <div key={el.key}>{el.key}</div>;
       })}
       <h2>PROJECT</h2>
+      <div style={{padding: '0 0 14px 0'}}>Refer to the basic features of ClinCheck.</div>
+      <div style={{padding: '0 0 14px 0'}}>The planning data in the Orthodontic Viewer is dummy data for testing purposes.</div>
       {projects.map((el) => {
         return (
           <a key={el.key} href={el.iframe} target="viewer" onClick={() => selectChanged(el.key)}>

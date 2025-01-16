@@ -11,7 +11,7 @@ export const projects = [
     },
     {
         key: 'Align',
-        iframe: 'https://tooth-align.vercel.app/viewer',
+        iframe: 'https://tooth-align.vercel.app/',
         source: ''
     },
     {
